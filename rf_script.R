@@ -16,10 +16,10 @@ library(ranger)
 library(caret)
 library(pROC)
 
-setwd("~/Documents/crc_new/")
+setwd("~/Dropbox/crc_new/")
 getwd() 
 
-data <- read.table('~/Dropbox/crc_new/dataset-2k-turf-caret.txt', header = T)
+data <- read.table('dataset-2k-turf-caret.txt', header = T)
 dim(data)
 
 
